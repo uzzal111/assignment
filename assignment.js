@@ -1,3 +1,5 @@
+   //https://github.com/uzzal111/assignment
+   
    // kilometerToMeter
 
    
@@ -64,10 +66,10 @@ function hotelCost(totaldays){
 //MegaFriend
 
    function megaFriend(friends = [ "a ,b , c , d"]) {
-       var largName = friends[0];
+       var largestName = friends[0];
        for(i = 0; i < friends.length; i++) {
             if (friends[i].length > largName.length){
-               largName = friends[i];
+               largestName = friends[i];
                
 
            }
